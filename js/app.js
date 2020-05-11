@@ -15,10 +15,10 @@ $(document).ready(()=>{
                                 <img src="${data.films[i].picture}">
                                   <figcaption>
                                     <h2>${data.films[i].nom}</h2>
-                                    <p> <a href="#">Date</a> ${data.films[i].date}</p>
-                                    <p> <a href="#">Réal </a>${data.films[i].realisateur} </p>
-                                    <p> <a href="#">Genre </a>${data.films[i].genre} </p>
-                                    <p> <a href="#">Sortie dvd </a>${data.films[i].sortiedvd} </p>
+                                    <p> <a>Date</a> ${data.films[i].date}</p>
+                                    <p> <a>Réal </a>${data.films[i].realisateur} </p>
+                                    <p> <a>Genre </a>${data.films[i].genre} </p>
+                                    <p> <a>Sortie dvd </a>${data.films[i].sortiedvd} </p>
                                   </figcaption>
                               </figure>
                             </li>

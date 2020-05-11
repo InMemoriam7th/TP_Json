@@ -1,5 +1,5 @@
 main{
-  margin: 0 auto;
+  margin: auto;
 }
 
 header h1{ 
@@ -8,10 +8,10 @@ header h1{
   padding: 2rem;
   font-weight: 200;
 }
-
 section ul li{
-  max-width: 28rem;
-  display: inline-flex;
+  width: calc(((80rem - 1rem)/3) - 1rem);
+  display: inline-block;
+  margin: 0.5rem;
 }
 ul li figure figcaption h2{
   color: #fff;
@@ -33,10 +33,6 @@ section ul{
 figcaption{
   background-color: rgba(20, 100, 255, 0.2);
 }
-figure{
-  padding : 0.7rem 0 0.35rem 0.7rem;
-  margin : 0 0.35rem 0.35rem 0 ;
-}
 figure img{
   width: 100%;
   height: 23rem;
@@ -48,4 +44,5 @@ main section{
   background: #fafafa;
   max-width : 80rem;
   margin: 0 auto;
+  padding: 0.5rem;
 }
