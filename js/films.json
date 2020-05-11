@@ -1,0 +1,28 @@
+{
+    "films":[
+        {
+            "picture" : "./asset/king-kong.jpg",
+            "nom" :"King Kong",
+            "date": "1933",
+            "realisateur":  "Merian C. Cooper, Ernest B",
+            "genre" : "Horreur, Fantastique",
+            "sortiedvd" : "22 Novembre 2005"
+        },
+        {
+            "picture" : "./asset/camonte.jpg",
+            "nom" :"Scarface",
+            "date": "1932",
+            "realisateur" : "Howard Hawks",
+            "genre" : "Policier, Action",
+            "sortiedvd" : "23 décembre 2005"
+        },
+        {
+            "picture" : "./asset/autant-le-vent-little.png",
+            "nom" :"Autant en emporte le vent",
+            "date": "1939",
+            "realisateur" : "Victor Fleming",
+            "genre" : "Drammatique, Guerre",
+            "sortiedvd" : "19 mars 2005"
+        }
+    ]
+}
